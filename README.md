@@ -16,7 +16,7 @@
 7. Serviço que o funcionario realizou
 8. Função do funcionario (Se é gerente, camareira etc)
 9. Listar dois relatorios: Numero de hospedes homens e Numero de hospedes Mulheres
-10. Login - Onde somente o administrador (Gerente do Hotel pode Logar)
+10. Login 
 
 ### Algumas Telas 
 - Relatorio
