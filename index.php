@@ -23,57 +23,57 @@ require 'conexao.php';
 	<div class="container ">
 		<div class="row">
 			<div class="col s6 offset-s3">
-			<div class="section">
-			<legend class="col s6 offset-s3 ">
-				<div class="">
-					<h4>Seja Bem Vindo!</h4>
+				<div class="section">
+					<legend class="col s6 offset-s3 ">
+						<div class="">
+							<h4>Seja Bem Vindo!</h4>
+						</div>
 				</div>
-			</div>
-			</legend>
-			<div class="section">
-				<form action="#" method="post">
+				</legend>
+				<div class="section">
+					<form action="#" method="post">
+						<div class="section">
+							<div class="section">
 								<div class="section">
 									<div class="section">
 										<div class="section">
+
+
 											<div class="section">
 												<div class="section">
-													
+
+
+													<label for="login">
+														CPF
+													</label>
+
+													<div>
+														<input class="form-control" type="text" id="login" name="login">
+													</div>
+
+
+
+													<label for="senha">
+														Senha
+													</label>
+
+
+													<input class="form-control" type="password" id="senha" name="senha">
+
+
 
 													<div class="section">
-														<div class="section">
-
-
-															<label for="login">
-																CPF
-															</label>
-
-															<div>
-																<input class="form-control" type="text" id="login" name="login">
-															</div>
-
-
-
-															<label for="senha">
-																Senha
-															</label>
-
-
-															<input class="form-control" type="password" id="senha" name="senha">
-
-
-
-															<div class="section">
-																<div class="col s6 offset-s5 ">
-																	<input class="btn btn-primary " type="submit" id="enviar" name="enviar" value="Enviar">
-																</div>
+														<div class="col s6 offset-s5 ">
+															<input class="btn btn-primary " type="submit" id="enviar" name="enviar" value="Enviar">
+														</div>
 
 
 
 
-				</form>
+					</form>
+				</div>
 			</div>
 		</div>
-	</div>
 </body>
 
 </html>
