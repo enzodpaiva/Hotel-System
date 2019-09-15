@@ -16,3 +16,11 @@
 8. Função do funcionario (Se é gerente, camareira etc)
 9. Listar dois relatorios: Numero de hospedes homens e Numero de hospedes Mulheres
 10. Login - Onde somente o administrador (Gerente do Hotel pode Logar)
+
+#### Algumas Telas 
+- Relatorio
+![image](https://user-images.githubusercontent.com/41880119/64926712-16162000-d7d7-11e9-8362-55516346b345.png)
+- Cadastro de Hospedes
+![image](https://user-images.githubusercontent.com/41880119/64926740-7016e580-d7d7-11e9-96c3-2819fa8ff143.png)
+- Listagem de Funcionarios
+![image](https://user-images.githubusercontent.com/41880119/64926748-92106800-d7d7-11e9-8f70-c1aadf1102ae.png)
