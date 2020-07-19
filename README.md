@@ -2,28 +2,30 @@
 ### Caracteristicas do sistema: 
 - PHP 7.0
 - Mysql 8.0
-- Foi utilizado o SGBD PHPMyadmin, mas nada impede o sistema ser gerenciado por outro
-- O sistema está organizado de forma diferente a sua utilização comum, portanto ao baixar mude a localização dos arquivos do jeito que for mais comodo
+- SGBD PHPMyadmin
+- Laravel 5.8
 
 ### Funcionalidades
-- Menu - Onde é possivel cadastrar, atualizar e excluir:
-1. Funcionarios
-2. Hospedes
-3. Quartos
-4. Serviço de Quarto
-5. Convenio de hospedes (O que pode gerar desconto em uma reserva)
-6. Reservar um quarto
-7. Serviço que o funcionario realizou
-8. Função do funcionario (Se é gerente, camareira etc)
-9. Listar dois relatorios: Numero de hospedes homens e Numero de hospedes Mulheres
-10. Login 
+- The registered user can register, update and delete
+
+#### Design Patters
+![pasted image 0](https://user-images.githubusercontent.com/41880119/87882117-5be1dd00-c9d4-11ea-9528-4dd02b8d9abb.png)
+
 
 ### Algumas Telas 
 - Relatorio
-![image](https://user-images.githubusercontent.com/41880119/64926712-16162000-d7d7-11e9-8362-55516346b345.png)
+![Screenshot_1](https://user-images.githubusercontent.com/41880119/87881998-749dc300-c9d3-11ea-8238-21c70f122d57.png)
 - Cadastro de Hospedes
-![image](https://user-images.githubusercontent.com/41880119/64926740-7016e580-d7d7-11e9-96c3-2819fa8ff143.png)
+![Screenshot_2](https://user-images.githubusercontent.com/41880119/87882001-75cef000-c9d3-11ea-8523-66ef8d7fbb06.png)
 - Listagem de Funcionarios
-![image](https://user-images.githubusercontent.com/41880119/64926748-92106800-d7d7-11e9-8f70-c1aadf1102ae.png)
+![Screenshot_3](https://user-images.githubusercontent.com/41880119/87882002-76678680-c9d3-11ea-9804-cde1fbaa3273.png)
 - Login
-![image](https://user-images.githubusercontent.com/41880119/64926823-a4d76c80-d7d8-11e9-927c-3367f2cd8c93.png)
+![Screenshot_4](https://user-images.githubusercontent.com/41880119/87882003-76678680-c9d3-11ea-895f-d670cb01d839.png)
+- text
+![Screenshot_5](https://user-images.githubusercontent.com/41880119/87882004-77001d00-c9d3-11ea-84ff-f672615e4862.png)
+- text
+![Screenshot_6](https://user-images.githubusercontent.com/41880119/87882005-77001d00-c9d3-11ea-875c-c1c73a3bd0bf.png)
+- text
+![Screenshot_8](https://user-images.githubusercontent.com/41880119/87882008-7798b380-c9d3-11ea-974b-b3882a147705.png)
+- text
+![Screenshot_9](https://user-images.githubusercontent.com/41880119/87882009-78314a00-c9d3-11ea-9e16-c45dba70ed45.png)
