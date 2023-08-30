@@ -1,5 +1,5 @@
 <?php
-require 'conexao.php';
+require 'connection/conexao.php';
 ?><html>
 
 <head>
@@ -79,28 +79,30 @@ require 'conexao.php';
 </html>
 <?php
 if (isset($_POST["enviar"])) {
-	$login = $_POST["login"];
-	$senha = $_POST["senha"];
+    $login = $_POST["login"];
+    $senha = $_POST["senha"];
 
-	if (empty($login) || empty($senha)) {
-		echo "Digite um login e uma senha!";
-		exit;
-	}
+    if (empty($login) || empty($senha)) {
+        echo "Digite um login e uma senha!";
+        exit;
+    }
 
-	$senha = md5($senha);
+    $senha = md5($senha);
 
-	$result = mysqli_query($conn, "SELECT * FROM funcionario WHERE cpf_func = '" . $login . "' and senha_func = '" . $senha . "';");
+    print($senha);
 
-	if ($registro = mysqli_fetch_array($result)) {
-		session_start();
-		$_SESSION["usuario"]["logado"] = true;
-		$_SESSION["usuario"]["login"] = $registro["login"];
-		$_SESSION["usuario"]["nome"] = $registro["nome"];
-		$_SESSION["usuario"]["gerente"] = $registro["gerente"] == "t" ? true : false;
-		header("location: menu.php");
-	} else {
-		echo "Login e/ou senha incorreto(s)!";
-	}
+    $result = mysqli_query($conn, "SELECT * FROM funcionario WHERE cpf_func = '" . $login . "' and senha_func = '" . $senha . "';");
 
-	mysqli_close($conn);
+    if ($registro = mysqli_fetch_array($result)) {
+        session_start();
+        $_SESSION["usuario"]["logado"] = true;
+        $_SESSION["usuario"]["login"] = $registro["login"];
+        $_SESSION["usuario"]["nome"] = $registro["nome"];
+        $_SESSION["usuario"]["gerente"] = $registro["gerente"] == "t" ? true : false;
+        header("location: menu.php");
+    } else {
+        echo "Login e/ou senha incorreto(s)!";
+    }
+
+    mysqli_close($conn);
 }

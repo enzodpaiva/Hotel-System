@@ -32,15 +32,18 @@ This system simplifies hotel management and enhances the guest experience by pro
 
 ### Prerequisites
 
-- [List any prerequisites here]
+- PHP
+- MySQL
 
 ### Installation
 
-- [Provide installation instructions here]
+- git clone
+- config file connection DB in connection/conexao.php
+- php -S localhost:8080
 
 ## Usage
 
-- [Explain how to use the system and provide examples]
+![Example GIF](/video-sistema-hotel.gif)
 
 ## Contributing
 
